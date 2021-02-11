@@ -1,0 +1,8 @@
+{
+    "name": "minimal-theme",
+    "description": "Just a basic theme made out of snippets if you don't want to change the UI much",
+    "version": "1.0.0",
+    "author": "ランビール#2004",
+    "theme": "minimal-theme.css",
+    "license": "unknown"
+}
