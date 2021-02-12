@@ -19,7 +19,7 @@ code {
 .item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ.focused-3afm-j { left: -1.5px; }
 
 
-/* SECTION Compact Plugins List */
+/*Compact Plugins List */
 .powercord-product {
     padding: 10px 0 !important;
     margin: 0 !important;
@@ -88,9 +88,6 @@ code {
 .powercord-product .description > div:first-child { 
     display: none;
 }
-/* !SECTION */
-
-
 
 
 /*Role Display edit*/
@@ -183,7 +180,7 @@ svg.icon-22AiRD:hover {
 
 /*Change Clyde's and Powercord name and avatar*/
 .wrapper-2a6GCs.ephemeral-1PsL1r .username-1A8OIy {
-   --local-bot-name: "BB-8"; /* Change this */
+   --local-bot-name: "NewNameHere"; /* Change this */
 }
 
 .wrapper-2a6GCs.ephemeral-1PsL1r {
@@ -196,7 +193,7 @@ svg.icon-22AiRD:hover {
 
 .wrapper-2a6GCs.ephemeral-1PsL1r [src*="powercord"],
 .wrapper-2a6GCs.ephemeral-1PsL1r [src*="/assets/"] {
-   content: url("https://media.discordapp.net/attachments/806040862572281857/806042446680555591/2e18b9635b424072fcee009842302ffa.png"); /* Change This */
+   content: url("AvatarURLHere"); /* Change This */
 }
 
 .wrapper-2a6GCs.ephemeral-1PsL1r .username-1A8OIy {
@@ -234,34 +231,29 @@ svg.icon-22AiRD:hover {
 }
 
 
-/**
- * Snippet from #css-snippets applied the 3 Feb 2021 at 20:29:20
- * Created by Hannah the Beegirl =BLM=#6969 (265245027070902274)
- * Snippet ID: 805103062485434398
- */
-.newMessagesBar-265mhP.barBase-1c2Rfb {
-    width:364px;
-}
+/* Better Jump to present*/
+
 .newMessagesBar-265mhP.barBase-1c2Rfb .barButtonAlt-mYL1lj.barButtonBase-2uLO1z {
     width: 132px;
 }
 .jumpToPresentBar-G1R9s6.barBase-1c2Rfb {
-    width:364px;
-    top: 5px;
-    bottom: auto;
-    right: 16px;
-    left: auto;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  border-radius: 50px;
+  margin-top: 5px;
+}
 }
 .jumpToPresentBar-G1R9s6.barBase-1c2Rfb .barButtonAlt-mYL1lj.barButtonBase-2uLO1z {
     width: 148px;
 }
-/** 805103062485434398 */
+.newMessagesBar-265mhP {
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  border-radius: 50px;
+  margin-top: 5px;
+}
 
-/**
- * Snippet from #css-snippets applied the 3 Feb 2021 at 20:32:36
- * Created by Gianology#9000 (491262066813042698)
- * Snippet ID: 796367986281152534
- */
+/* Discord New Update Balloon */
 .iconWrapper-2OrFZ1[aria-label="Update Ready!"] {
   position: fixed;
   right: 2px;
@@ -296,13 +288,8 @@ svg.icon-22AiRD:hover {
   right: 148px;
   top: 173px;
 }
-/** 796367986281152534 */
 
-/**
- * Snippet from #css-snippets applied the 3 Feb 2021 at 20:47:23
- * Created by Ein#3092 (307356893053976576)
- * Snippet ID: 766517832640233502
- */
+
 /** Blurple discord join/explore buttons**/
 .circleIconButton-jET_ig svg path{
   fill: #7289da;
@@ -313,35 +300,22 @@ svg.icon-22AiRD:hover {
 .circleIconButton-jET_ig.selected-ugP_am svg path{
   fill: white;
 }
-/** 766517832640233502 */
 
 
-/**
- * Snippet from #css-snippets applied the 3 Feb 2021 at 20:55:28
- * Created by mo#9999 (682735971392815124)
- * Snippet ID: 763106901948628994
- */
+
+/* round button containers which u see on hovering*/
 .wrapper-2aW0bm,.button-1ZiXG9.selected-LCBEAU,.button-1ZiXG9,.powercord-snippet-apply:not(.applied) div:hover,.powercord-snippet-apply div  {
     border-radius: 24px !important;
     }
-/** 763106901948628994 */
 
-/**
- * Snippet from #css-snippets applied the 3 Feb 2021 at 20:55:39
- * Created by Chromus#4761 (511758610720751626)
- * Snippet ID: 763101719386390528
- */
+/*Round Channel Highlight*/
 .content-1x5b-n,
 .layout-2DM8Md {
     border-radius: 50px;
 }
-/** 763101719386390528 */
 
-/**
- * Snippet from #css-snippets applied the 3 Feb 2021 at 20:57:54
- * Created by LuckFire#4800 (399416615742996480)
- * Snippet ID: 762521658723794984
- */
+
+/*Mac like topbar buttons*/
 .winButton-iRh8-Z > svg {
    display: none;
 }
@@ -380,13 +354,33 @@ svg.icon-22AiRD:hover {
 .winButtonMinMax-PBQ2gm[aria-label="Minimize"]:hover::after {
    background-color: rgba(0, 202, 78, 0.5);
 }
-/** 762521658723794984 */
 
-/**
- * Snippet from #css-snippets applied the 3 Feb 2021 at 20:58:57
- * Created by MulverineX#0001 (178551656714076161)
- * Snippet ID: 762067626942791680
- */
+/* Align topbar buttons to the left */
+.titleBar-AC4pGV.directionRowReverse-m8IjIq {
+  flex-direction: row;
+}
+.winButtonMinMax-PBQ2gm, .winButtonClose-1HsbF- {
+  margin: 0;
+  width: 22px;
+}
+.winButtonClose-1HsbF- {
+  order: 1;
+}
+.winButtonMinMax-PBQ2gm[aria-label="Maximize"] {
+  order: 2;
+}
+.winButtonMinMax-PBQ2gm[aria-label="Minimize"] {
+  order: 3;
+}
+.wordmarkWindows-1v0lYD {
+  position: relative;
+  padding-top: 0;
+  padding-left: 4px;
+  order: 4;
+}
+
+
+/*Plugin Settings Separator*/
 .item-PXvHYJ[data-item-id=pc-updater] {
     height: 4.65rem;
     align-items: unset !important;
@@ -417,23 +411,14 @@ svg.icon-22AiRD:hover {
     font-weight: 700;
     font-size: 12px;
 }
-/** 762067626942791680 */
 
-/**
- * Snippet from #css-snippets applied the 3 Feb 2021 at 21:06:38
- * Created by mo#9999 (682735971392815124)
- * Snippet ID: 756274641957552158
- */
+/*Round Bot Tag*/
 .botTag-2WPJ74 {
     border-radius: 20px !important;
 }
-/** 756274641957552158 */
 
-/**
- * Snippet from #css-snippets applied the 3 Feb 2021 at 21:27:54
- * Created by MulverineX#0001 (178551656714076161)
- * Snippet ID: 755227187556253716
- */
+
+/* Better utilize space in server emoji settings */
 .emojiUploader-1f0pVx,
 div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG justifyStart-2NDFzi alignStretch-DpGPf3 noWrap-3jynv6 marginBottom4-2qk4Hy"] {
     display: none
@@ -443,13 +428,8 @@ div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1
     display: inline-flex;
     margin-right: 50px
 }
-/** 755227187556253716 */
 
-/**
- * Snippet from #css-snippets applied the 3 Feb 2021 at 21:45:25
- * Created by botato#6883 (440990343899643943)
- * Snippet ID: 755164652123455498
- */
+
 /* Better Popped Out QuickCSS */
 .powercord-quickcss.popped-out {
   overflow: hidden;
@@ -484,11 +464,7 @@ div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1
   width: 360px;
 }
 
-/**
- * Snippet from #css-snippets applied the 3 Feb 2021 at 22:33:36
- * Created by Deleted User#0000 (456226577798135808)
- * Snippet ID: 755185315941187605
- */
+/*Custom Discord Home Button*/
 .listItem-2P_4kh:nth-child(1) .listItemWrapper-3X98Pc .wrapper-25eVIn svg foreignObject .wrapper-1BJsBx .childWrapper-anI2G9 .homeIcon-tEMBK1 {
   background: url("https://i.imgur.com/Y9N3OCy.gif"); /* image url */
   background-size: 60px;
@@ -513,26 +489,7 @@ div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1
 .homeIcon-tEMBK1 path {
   fill: transparent;
 }
-/** 755185315941187605 */
 
-/**
- * Snippet from #css-snippets applied the 12 Feb 2021 at 12:03:58
- * Created by Chromus#4761 (511758610720751626)
- * Snippet ID: 783073417301721101
- */
-.newMessagesBar-265mhP {
-  background-color: rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(5px);
-  border-radius: 50px;
-  margin-top: 5px;
-}
-/** 783073417301721101 */
-
-/**
- * Snippet from #css-snippets applied the 12 Feb 2021 at 12:06:04
- * Created by Möth#0487 (289556910426816513)
- * Snippet ID: 769595669156593695
- */
 /* Pin discord icon to top */
 div .tutorialContainer-1v44GL {
   position: sticky;
@@ -544,43 +501,9 @@ div .tutorialContainer-1v44GL {
   z-index: 100;
   background-color: var(--background-tertiary)
 }
-/** 769595669156593695 */
 
-/**
- * Snippet from #css-snippets applied the 12 Feb 2021 at 12:13:42
- * Created by Freeplay#5676 (158296466119458816)
- * Snippet ID: 762650583894589441
- */
-/* Align topbar buttons to the left */
-.titleBar-AC4pGV.directionRowReverse-m8IjIq {
-  flex-direction: row;
-}
-.winButtonMinMax-PBQ2gm, .winButtonClose-1HsbF- {
-  margin: 0;
-  width: 22px;
-}
-.winButtonClose-1HsbF- {
-  order: 1;
-}
-.winButtonMinMax-PBQ2gm[aria-label="Maximize"] {
-  order: 2;
-}
-.winButtonMinMax-PBQ2gm[aria-label="Minimize"] {
-  order: 3;
-}
-.wordmarkWindows-1v0lYD {
-  position: relative;
-  padding-top: 0;
-  padding-left: 4px;
-  order: 4;
-}
-/** 762650583894589441 */
 
-/**
- * Snippet from #css-snippets applied the 12 Feb 2021 at 12:51:05
- * Created by Marmota#2533 (289112759948410881)
- * Snippet ID: 809681377645166602
- */
+/*Only shows message input buttons on hover*/
 .buttons-3JBrkn {
   opacity: 0;
   transition: opacity 0.1s;
@@ -589,4 +512,3 @@ div .tutorialContainer-1v44GL {
 .channelTextArea-rNsIhG:hover .buttons-3JBrkn {
   opacity: 1.0;
 }
-/** 809681377645166602 */
