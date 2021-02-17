@@ -180,7 +180,7 @@ svg.icon-22AiRD:hover {
 
 /*Change Clyde's and Powercord name and avatar*/
 .wrapper-2a6GCs.ephemeral-1PsL1r .username-1A8OIy {
-   --local-bot-name: "NewNameHere"; /* Change this */
+   --local-bot-name: "BB-8"; /* Change this */
 }
 
 .wrapper-2a6GCs.ephemeral-1PsL1r {
@@ -193,7 +193,7 @@ svg.icon-22AiRD:hover {
 
 .wrapper-2a6GCs.ephemeral-1PsL1r [src*="powercord"],
 .wrapper-2a6GCs.ephemeral-1PsL1r [src*="/assets/"] {
-   content: url("AvatarURLHere"); /* Change This */
+   content: url("https://media.discordapp.net/attachments/806040862572281857/806042446680555591/2e18b9635b424072fcee009842302ffa.png"); /* Change This */
 }
 
 .wrapper-2a6GCs.ephemeral-1PsL1r .username-1A8OIy {
