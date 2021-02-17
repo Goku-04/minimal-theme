@@ -253,41 +253,6 @@ svg.icon-22AiRD:hover {
   margin-top: 5px;
 }
 
-/* Discord New Update Balloon */
-.iconWrapper-2OrFZ1[aria-label="Update Ready!"] {
-  position: fixed;
-  right: 2px;
-  top: 80px;
-  background: var(--background-tertiary);
-  border-radius: 10px;
-  width: 300px;
-  height: 130px;
-  border-right: 5px solid #43B581;
-  transition: background 1s;
-}
-
-.iconWrapper-2OrFZ1[aria-label="Update Ready!"]::before {
-  position: relative;
-  display: block;
-  content: "A discord update has been released.";
-  font-weight: 700;
-  top: 13px;
-  text-align: center;
-}
-
-.iconWrapper-2OrFZ1[aria-label="Update Ready!"]::after {
-  position: relative;
-  display: block;
-  content: "It is recommended to install it now to receive brand new features & patches.";
-  top: 22px;
-  text-align: center;
-}
-
-.iconWrapper-2OrFZ1[aria-label="Update Ready!"] > .icon-22AiRD {
-  position: fixed;
-  right: 148px;
-  top: 173px;
-}
 
 
 /** Blurple discord join/explore buttons**/
@@ -355,8 +320,11 @@ svg.icon-22AiRD:hover {
    background-color: rgba(0, 202, 78, 0.5);
 }
 
-/* Align topbar buttons to the left */
-.titleBar-AC4pGV.directionRowReverse-m8IjIq {
+/*** Align topbar buttons to the left ***/
+
+/*||||||||||||   Remove the '/*' from top and bottom if you want to make the buttons go left side   ||||||||||||\*
+
+/*.titleBar-AC4pGV.directionRowReverse-m8IjIq {     
   flex-direction: row;
 }
 .winButtonMinMax-PBQ2gm, .winButtonClose-1HsbF- {
@@ -378,6 +346,9 @@ svg.icon-22AiRD:hover {
   padding-left: 4px;
   order: 4;
 }
+*/
+
+
 
 
 /*Plugin Settings Separator*/
@@ -489,19 +460,6 @@ div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1
 .homeIcon-tEMBK1 path {
   fill: transparent;
 }
-
-/* Pin discord icon to top */
-div .tutorialContainer-1v44GL {
-  position: sticky;
-  top: -12px;
-  padding-top: 12px;
-  padding-bottom: 6px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  z-index: 100;
-  background-color: var(--background-tertiary)
-}
-
 
 /*Only shows message input buttons on hover*/
 .buttons-3JBrkn {
