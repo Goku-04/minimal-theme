@@ -21,4 +21,5 @@ If you wanna just test this theme copy this to your quickcss `https://goku-04.gi
 
 **Credits to all those who made css-snippets in Powercord Community Server**
 
+# Note:
 **I haven't updated the repo for almost an year and it seems it is broken....so no use keeping it active**
